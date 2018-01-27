@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : waterjug.cpp
+// Author      : Khayyam Saleem
+// Version     :
+// Copyright   : I pledge my honor that I have abided by the Stevens Honor System.
+// Description : Hello World in C, Ansi-style
+//============================================================================
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("!!!Hello World!!!");
+	return EXIT_SUCCESS;
+}

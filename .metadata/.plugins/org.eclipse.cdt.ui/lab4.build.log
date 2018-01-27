@@ -1,0 +1,6 @@
+12:59:08 **** Incremental Build of configuration Default for project lab4 ****
+make all 
+g++ -g -Wall -Werror -pedantic-errors -fmessage-length=0 lab4.cpp -o lab4
+
+12:59:09 Build Finished (took 386ms)
+

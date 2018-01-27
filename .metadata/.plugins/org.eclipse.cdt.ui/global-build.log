@@ -1,0 +1,4 @@
+09:43:59 **** Incremental Build of configuration Default for project rbt ****
+make all 
+g++ -O2 -Wall -Werror -pedantic-errors -fmessage-length=0   -c -o testrbt.o testrbt.cpp
+g++ testrbt.o -o testrbt

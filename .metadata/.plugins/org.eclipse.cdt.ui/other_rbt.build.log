@@ -1,0 +1,7 @@
+09:41:52 **** Build of configuration Default for project other_rbt ****
+make all 
+g++ -O2 -Wall -Werror -pedantic-errors -fmessage-length=0   -c -o testrbt.o testrbt.cpp
+g++ testrbt.o -o testrbt
+
+09:41:54 Build Finished (took 2s.431ms)
+

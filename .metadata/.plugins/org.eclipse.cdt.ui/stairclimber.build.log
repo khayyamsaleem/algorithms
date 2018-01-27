@@ -1,0 +1,6 @@
+12:44:56 **** Incremental Build of configuration Default for project stairclimber ****
+make all 
+g++ -g -Wall -Werror -pedantic-errors -fmessage-length=0 stairclimber.cpp -o stairclimber
+
+12:44:56 Build Finished (took 540ms)
+

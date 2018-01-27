@@ -1,0 +1,36 @@
+A tree is a directed acyclic graph (DAG).
+
+A binary tree is a tree where each node has two (possibly null) subtrees.
+
+A binary search tree is a binary tree where nodes in
+the left subtree have keys less than the root and 
+nodes in the right subtree have keys greater than the 
+root. 
+
+             BST
+         
+             50
+	    /  \
+          27   68
+	 / \   / \
+	12    60 99
+       / \       / \
+	 15     95 110
+
+
+
+TRAVERSALS OF TREES
+
+preorder:  root, left,  right  ==>  50, 27, 12, 15, 68, 60, 99, 95, 110
+inorder:   left, root,  right  ==>  12, 15, 27, 50, 60, 68, 95, 99, 110
+postorder: left, right, root   ==>  
+
+Leaf nodes      --> nodes with null left and right subtrees
+internal nodes  --> non-leaf nodes
+
+Height of a tree is the number of edges from the root down to the deepest leaf
+height(root) = 0
+height(null) = -1
+
+Maximum width : the number of nodes on the level with the most nodes
+Diameter      : number of edges on the longest path between any two nodes 

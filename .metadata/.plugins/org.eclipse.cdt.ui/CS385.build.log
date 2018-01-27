@@ -1,0 +1,6 @@
+12:27:16 **** Incremental Build of configuration Default for project CS385 ****
+make all 
+c++ -g -Wall -Werror -pedantic-errors -fmessage-length=0 CS385.cpp -o CS385
+
+12:27:16 Build Finished (took 359ms)
+

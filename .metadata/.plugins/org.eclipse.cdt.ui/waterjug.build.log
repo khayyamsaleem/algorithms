@@ -1,0 +1,7 @@
+12:27:19 **** Incremental Build of configuration Default for project waterjug ****
+Info: Configuration "Default" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+g++ -O2 -Wall -Werror -pedantic-errors -fmessage-length=0  waterjugpuzzle.cpp -o waterjugpuzzle
+
+12:27:20 Build Finished (took 988ms)
+
